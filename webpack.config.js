@@ -20,5 +20,5 @@ module.exports = {
     resolve: {
         extensions: ['.js']
     },
-    mode: 'development'
+    mode: 'production' // Changed to production for better performance
 };
