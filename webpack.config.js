@@ -9,7 +9,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/, // regex für .js-Dateien
+                test: /\.(js|jsx)$/, // Updated regex to include .jsx files
                 exclude: /node_modules/, 
                 use: {
                     loader: 'babel-loader'
@@ -18,7 +18,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.js']
+        extensions: ['.js', '.jsx'] // Added .jsx to resolve extensions
     },
     mode: 'production', // Set to production for better performance
     devtool: 'source-map' // Added source maps for easier debugging
