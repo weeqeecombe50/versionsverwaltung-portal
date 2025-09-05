@@ -20,5 +20,6 @@ module.exports = {
     resolve: {
         extensions: ['.js']
     },
-    mode: 'production' // Changed to production for better performance
+    mode: 'production', // Changed to production for better performance
+    devtool: 'source-map' // Added source maps for debugging
 };
