@@ -1,6 +1,6 @@
 {
   "name": "versionsverwaltung-portal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ein benutzerfreundliches Portal zur Verwaltung von Versionskontrollsystemen",
   "main": "index.js",
   "scripts": {
