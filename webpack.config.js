@@ -9,7 +9,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/, // regex für js-Dateien
+                test: /\.js$/, // regex für .js-Dateien
                 exclude: /node_modules/, 
                 use: {
                     loader: 'babel-loader'
@@ -20,6 +20,6 @@ module.exports = {
     resolve: {
         extensions: ['.js']
     },
-    mode: 'production', // Changed to production for better performance
-    devtool: 'source-map' // Added source maps for debugging
+    mode: 'production', // Set to production for better performance
+    devtool: 'source-map' // Added source maps for easier debugging
 };
